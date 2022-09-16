@@ -1,0 +1,49 @@
+<!DOCTYPE html><html translate=no class=notranslate><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui"><meta name=apple-touch-fullscreen content=yes><link rel=apple-touch-icon href=/src/img/favicon.267ace1.png><meta name=format-detection content="telephone=no"><meta name=format-detection content="email=no"><meta name=renderer content=webkit><meta name=HandheldFriendly content=true><meta name=MobileOptimized content=320><meta name=screen-orientation content=portrait><meta name=x5-orientation content=portrait><meta name=full-screen content=yes><meta name=x5-fullscreen content=true><meta name=browsermode content=application><meta name=x5-page-mode content=app><meta name=msapplication-tap-highlight content=no><meta name=apple-mobile-web-app-status-bar-style><meta name=apple-mobile-web-app-capable content=yes><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><link href=/static/font-awesome.min.css rel=stylesheet><link rel="shortcut icon" href=favicon.ico type=image/x-icon><link href=favicon.ico rel=Bookmark><link rel=apple-touch-icon-precomposed href=https://images.int-test1.com/system/App/App.png><link rel=apple-touch-icon href=https://images.int-test1.com/system/App/App.png><link rel=apple-touch-icon sizes=57x57 href=https://images.int-test1.com/system/App/App.png><link rel=apple-touch-icon sizes=72x72 href=https://images.int-test1.com/system/App/App.png><link rel=apple-touch-icon sizes=114x114 href=https://images.int-test1.com/system/App/App.png><link rel=apple-touch-icon sizes=144x144 href=https://images.int-test1.com/system/App/App.png><meta name=mobile-web-app-capable content=yes><meta name=google content=notranslate value=notranslate><title>Welcome</title></head><body ontouchstart><div id=app><div class=spinner></div><style>body {
+          background-color: #f2f2f2;
+        }
+
+        .spinner {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          width: 5rem;
+          height: 5rem;
+          border-radius: 100%;
+          border: 1rem solid #dc3b40;
+          border-left: 1rem solid transparent;
+          -webkit-animation: sk-stretchdelay 1.2s infinite linear;
+          animation: sk-stretchdelay 1.2s infinite linear;
+        }
+
+        @-webkit-keyframes sk-stretchdelay {
+          0% {
+            transform: rotate(0deg)
+          }
+          100% {
+            transform: rotate(360deg)
+          }
+        }
+
+        @keyframes sk-stretchdelay {
+          0% {
+            transform: rotate(0deg)
+          }
+          100% {
+            transform: rotate(360deg)
+          }
+        }</style></div>
+<script>
+(function (win) {
+  win.headList = [{"type":"link","src":"/static/css/app.da17443501c394a0e6956ea184c7c294.css"}]
+})(window)
+</script>
+
+<script>
+(function (win) {
+  win.bottomList = [{"type":"script","src":"/static/spine-webgl.js"},{"type":"script","src":"/static/mobile-detect.min.js"},{"type":"script","src":"/static/preloadjs.min.js"},{"type":"script","src":"/static/soundjs.min.js"},{"type":"script","src":"/static/aliyun.min.js"},{"type":"script","src":"/static/js/manifest.e8e6ffa8c89f345ed1f6.js"},{"type":"script","src":"/static/js/vendor.2ad3c7a53d5155fd5274.js"},{"type":"script","src":"/static/js/app.a365eab62f839055c17f.js"}]
+})(window)
+</script>
+</body></html><script src=/static/initws.js></script><script>window.PublishVersion = '2022/07/29_00:13:01 mb-v1.166.101'</script>
