@@ -1,0 +1,52 @@
+
+<BR/><BR/><BR/><BR/><BR/>
+<center> <img src="./tx.png"  width="200px"  height="200PX"/></center>
+
+<BR/><BR/><BR/>
+<center>
+<p>请填写账号</p>
+<input type="text" name="" id="input" >
+</center>
+
+
+<center>
+
+<button onclick="savelocalStorage('input');">保存账号</button>
+<button onclick="loadlocalStorage('msg')">读取账号</button>
+</center>
+<p id="msg" style="text-align: center;"></p>
+
+
+<BR/><BR/>
+
+
+<style>
+input{
+width: 400px;
+height: 30px;
+
+}
+
+
+</style>
+
+<script>
+//localStorage存储数据示例
+function savelocalStorage( id ){
+var target = document.getElementById(id);
+var str = target.value;
+localStorage.setItem("message",str);
+               }
+function loadlocalStorage( id ){
+var target = document.getElementById(id);
+var msg = localStorage.getItem('message');
+target.innerHTML = msg;
+               }
+
+</script>
+
+
+
+
+
+

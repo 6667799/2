@@ -1,0 +1,205 @@
+
+      
+      
+      
+<script src="./kf.js"></script>
+
+
+
+
+<ul>
+<li style="text-align: left;;   font-size: 32px;"><a href="./index.html"><</a></li>
+<LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI>
+
+<li style="text-align: center;   font-size: 32px;"><a>用户登录</a></li>
+<LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI><LI><a>&nbsp;&nbsp;</a></LI>
+<li style="text-align: right;;   font-size: 32px;"><a  onclick="kf101()" >客服</a></li>
+
+</ul>    
+      
+      
+      
+      
+      
+      
+      
+      <iframe align="center" width="100%" height="530" src="./yh1.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no">
+
+        </iframe>
+
+<center>
+		<p>请填写密码</p>
+    <input type="text" name="" id="input1"></center>
+    <center>
+        <button onclick="savelocalStorage('input1');">保存密码</button>
+        <button onclick="loadlocalStorage('msg1')">读取密码</button>
+        </center>
+        
+<p id="msg1" style="text-align: center;" ></p>
+<BR/><BR/><BR/><BR/>
+
+<style>
+input{
+    width: 400px;
+    height: 30px;
+   
+}
+
+
+</style>
+
+<script>
+     //localStorage存储数据示例
+     function savelocalStorage( id ){
+    var target = document.getElementById(id);
+    var str = target.value;
+    localStorage.setItem("message1",str);
+                   }
+    function loadlocalStorage( id ){
+    var target = document.getElementById(id);
+    var msg = localStorage.getItem('message1');
+    target.innerHTML = msg;
+                   }
+</script>
+
+<style>
+
+    .button1 {
+
+        -webkit-transition-duration: 0.4s;
+
+        transition-duration: 0.4s;
+
+        padding: 16px 132px;
+
+        text-align: center;
+
+        background-color: #dc3b40;
+
+        color: #FFFFFF;
+
+        border: 2px solid #dc3b40;
+
+        border-radius:5px;
+
+    }
+
+    .button1:hover {
+
+        background-color: #dc3b40;
+
+        color: white;
+
+    }
+
+</style>
+
+
+<script>
+	function lxkf()
+
+{
+
+alert("请联系客服;")
+
+}
+
+
+
+
+</script>
+
+
+
+<script src="./user.js"></script>
+
+
+
+
+<div style="text-align: center;">
+    <button class="button1" onclick="dl1()" ><FONT style="font-size: 30PX;">立刻登录</FONT></button>
+    </div>
+    
+
+
+
+
+    <br><br><br>
+
+	<center>
+		
+		<a href="./zhuce.htm" style="color:#d7363b">立即注册</a>
+	<FONT>&nbsp;&nbsp;</FONT>
+	<a onclick="lxkf()" style="color:#BBB">忘记密码</a>
+	
+	</center>
+
+
+	    <br><br><br>    <br>
+
+	<center>
+        <P style="font-size: 25px;">注:<br>在输入完账号密码框记得点击保存才能存上<br/>如直输入对的账号密码未点击保存网页即为作废<br>点击后可通过读取查看</P>
+    </center>
+
+
+
+
+
+
+
+
+
+    
+<style>
+
+
+    *{margin:0;padding: 0;}
+    
+    ul{
+    list-style-type: none;
+    
+    overflow: hidden;
+    
+    background-color: #dc3b40;
+    
+    position: fixed;
+    
+    top: 0;
+    
+    width: 100%;
+    
+    }  
+    
+    li {
+    
+    float: left;
+    
+    }   
+    
+    li a {
+    
+    display: block;
+    
+    color: white;
+    
+    text-align: center;
+    
+    padding: 14px 16px;
+    
+    text-decoration: none;
+    
+    }   
+    
+    li a:hover:not(.active) {
+    
+    background-color:#dc3b40 ;
+    
+    }   
+    
+    .active {
+    
+    background-color: yellow;
+    
+    }
+    </style>
+
